@@ -7,5 +7,9 @@ list.append("parrot");
 list.append("hamster");
 list.append("snake");
 list.append("turtle");
-
-list.toString();
+list.prepend("horse");
+// list.pop();
+// list.toString();
+// list.insertAt("hello", 0);
+// list.removeAt(0);
+console.log(list.toString());
